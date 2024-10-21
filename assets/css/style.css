@@ -38,10 +38,14 @@ nav {
 main {
     grid-column: 2 / span 6;
     grid-row: 2 / span 6;
+}
+
+.main-about {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
+
 
 aside {
     grid-column: 8 / span 1;
@@ -61,4 +65,8 @@ footer {
 
 main img {
     height: 50%;
+}
+
+main table {
+    text-align: center;
 }
