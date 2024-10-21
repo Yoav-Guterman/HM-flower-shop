@@ -39,7 +39,7 @@ main {
     grid-column: 2 / span 6;
     grid-row: 2 / span 6;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -57,4 +57,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+main img {
+    height: 50%;
 }
